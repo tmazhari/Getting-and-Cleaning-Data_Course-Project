@@ -32,5 +32,5 @@
 * STEP 2: In this step, The features that have mean or std in their names are identified. Then, these features alongside activity and subject are stored in columnsNeeded variable
 * STEP 3: Activity labels are extracted and assigned to the first column of the data data frame  
 * STEP 4: Approriate labels are assigned to all column names of the data data frame  
-* STEP 5: The second tidy and clean data is subset from the data with the average of each variable for each activity and each subject using the ddply function from plyr package. Finally this new tidy and clean subset of the data, is stored in data_second data frame is sent to output written to tidydata.txt  
+* STEP 5: The second tidy and clean data is subset from the data with the average of each variable for each activity and each subject using the ddply function from plyr package. Finally this new tidy and clean subset of the data, is stored in data_second data frame is sent to output written to second_tidydata.txt  
 
