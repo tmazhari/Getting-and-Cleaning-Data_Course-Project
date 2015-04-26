@@ -53,4 +53,4 @@ names(data) <- c("activity", "subject", as.character(features[featuresNeeded,2])
 ########## Createing the second independent tidy data set from STEP 4 with the average of each variable for each activity and each subject ##########
 library(plyr)
 data_second <- ddply(data, .(activity, subject), function(x) colMeans(data[,3:68]))
-write.table(data_second, file = "tidydata.txt", row.name=FALSE)
+write.table(data_second, file = "second_tidydata.txt", row.name=FALSE)
